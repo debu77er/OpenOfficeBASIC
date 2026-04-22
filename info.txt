@@ -1,0 +1,8 @@
+https://doc.services.openoffice.org/en/forum/viewtopic.php?p=70681   //ALERT security of the page
+Miscellaneous undocumented keywords in Basic
+OpenOffice
+https://doc.services.openoffice.org › ...
+
+OOo Basic picks out a variety of words to display in blue and treat as keywords, e.g. "function", "open", "string". Most of these have obvious functions ...
+
+keyword output also cause error
