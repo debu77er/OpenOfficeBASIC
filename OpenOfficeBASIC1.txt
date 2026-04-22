@@ -1,0 +1,29 @@
+Sub GenerateFibonacci()
+    Dim n As Integer
+    Dim count As Integer
+    Dim fib1 As Long
+    Dim fib2 As Long
+    Dim temp As Long
+    Dim xoutput As String 'dont use output keyword because it has meaning'
+
+    ' Set the number of Fibonacci numbers to generate
+    count = 10  ' Change this value as needed
+
+    ' Initialize first two Fibonacci numbers
+    fib1 = 0
+    fib2 = 1
+
+    xoutput = "Fibonacci sequence:" & Chr(10)
+    xoutput = xoutput & fib1 & ", " & fib2
+
+    For n = 3 To count
+        temp = fib2
+        fib2 = fib1 + fib2
+        fib1 = temp
+        xoutput = xoutput & ", " & fib2
+    Next n
+
+    ' Show the sequence in a message box
+    MsgBox xoutput, 64, "Fibonacci Numbers"
+End Sub
+
