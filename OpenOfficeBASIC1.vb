@@ -5,6 +5,7 @@ Sub GenerateFibonacci()
     Dim fib2 As Long
     Dim temp As Long
     Dim xoutput As String 'dont use output keyword because it has meaning'
+    
 
     ' Set the number of Fibonacci numbers to generate
     count = 10  ' Change this value as needed
